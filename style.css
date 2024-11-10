@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Righteous&family=Spline+Sans:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+body {
+    font-family: "Spline Sans", sans-serif;
+    line-height: 1.7;
+}
+
+li{
+    list-style: none;
+    padding:0;
+}
+
+.logo{
+    width:40px;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    transition: all 0.4s;
+}
+
+a:hover {
+    color:rgb(5, 30, 254);
+}
+
+.para{
+    letter-spacing: 2px;
+}
+
+/* .navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    --webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ddddff;
+} */
+
+.navigation-wrap .nav-item {
+    padding: 0 0.5rem;
+    transition: all 200ms linear;
+}
+
+.nav-link {
+    padding-top: 0.9375rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.0625rem;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color:rgb(46, 78, 235);
+}
+
+
+.trans{
+    transition: all 0.4s ease-in-out;
+}
+
+.trans:hover{
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-brand p{
+  margin-top: 10px;
+  font-family: Oswald, sans-serif;
+  letter-spacing:1px;
+  font-weight:600;
+}
